@@ -28,12 +28,13 @@ Moonlight是Nvidia GameStream协议的开源实现，后者是Nvidia为其游戏
 ![](assets/96012fd6b9b311191311e97f466e29a1_MD5.webp)
 点击右下角`CUMSTOM...`按钮，输入被当作副屏的平板电脑屏幕参数，我所使用的平板电脑屏幕为2560×1600，120Hz，因此填入软件的槽位1：
 ![](assets/3d128ac85f1ca6ecef5a58478c611866_MD5.webp)
-![](assets/89c36f3d17392aa7d80274a03bf22722_MD5.webp)
+点击右下角应用按钮后选择`ADD DISPLAY`便成功生成了虚拟显示器，在Windows系统设置中可以看到系统的确认为电脑上连接了一个分辨率为2560×1600 120Hz的显示器。
+
 >[!caution] 注意
 >
 >在添加显示器后可能ParsecVDisplay所显示的虚拟显示器参数和正在使用的显示器参数一致，而不是自定义的显示器参数，这可能是投影模式为复制导致的，使用<kbd data-windows-keyboard-key="windows">Win</kbd> + <kbd>P</kbd> 打开投影选项卡选择扩展应该可以解决。
 
-点击右下角应用按钮后选择`ADD DISPLAY`便成功生成了虚拟显示器，在Windows系统设置中可以看到系统的确认为电脑上连接了一个分辨率为2560×1600 120Hz的显示器。
+![](assets/89c36f3d17392aa7d80274a03bf22722_MD5.webp)
 ![](assets/a1dee55e46927a47c2a750b282b2cb35_MD5.webp)
 至此，ParsecVDisplay的配置完成。在后续的使用中只需要打开软件直接点击`ADD DISPLAY`按钮即可。
 ### 2. Sunshine
